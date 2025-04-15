@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .searchContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .searchInput {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Lekko wyróżniający się border */
+    background-color: #1b1b1b; /* Ten sam kolor co tło headera */
+    border-radius: 20px; /* Zaokrąglone krawędzie */
+    color: #fff; /* Biały tekst */
+    outline: none;
+  }
+  
+  .searchInput::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Stonowany kolor placeholdera */
+  }
+  
+  .profileIcon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 4%;
+  }
+  
+  .icon {
+    color: #a1a1a1;
+  }

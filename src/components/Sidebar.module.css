@@ -1,0 +1,37 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #2c2c2c;
+    padding: 10px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 60px; /* Ustawienie pod Header */
+    left: 0;
+    overflow-y: auto;
+  }
+  
+  .nav {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 0; /* Przesunięcie listy maksymalnie do lewej */
+  }
+  
+  .nav ul {
+    padding-left: 0; /* Usunięcie domyślnego paddingu */
+  }
+  
+  .navItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .navItem:hover {
+    background-color: #505050;
+    border-radius: 5px;
+  }
